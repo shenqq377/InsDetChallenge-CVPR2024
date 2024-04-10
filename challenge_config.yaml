@@ -113,12 +113,15 @@ challenge_phases:
         description: Yes or No? If Yes, what data?
         type: text
       - name: What types of GPUs did you use (e.g., Nvidia 3080) and how many GPUs did you use?
+        description: None
         type: text
         required: True
       - name: If you are invited to present your work at our workshop, do you agree to submit a report and open-source your code for our verification?
+        description: Yes or No?
         type: boolean
         required: True
       - name: Any remarks?
+        description: Please let us know any other info you want to share!
         type: text
         required: False
     is_restricted_to_select_one_submission: False
@@ -155,12 +158,15 @@ challenge_phases:
         description: Yes or No? If Yes, what data?
         type: text
       - name: What types of GPUs did you use (e.g., Nvidia 3080) and how many GPUs did you use?
+        description: None
         type: text
         required: True
       - name: If you are invited to present your work at our workshop, do you agree to submit a report and open-source your code for our verification?
+        description: Yes or No?
         type: boolean
         required: True
       - name: Any remarks?
+        description: Please let us know any other info you want to share!
         type: text
         required: False
     is_restricted_to_select_one_submission: False
