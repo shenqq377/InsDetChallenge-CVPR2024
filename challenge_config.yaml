@@ -105,14 +105,22 @@ challenge_phases:
       - name: publication_url
         is_visible: True
     submission_meta_attributes:
-      - name: Do you use pretrained models?
-        description: such as foundation models
+      - name: Did you use any pertained models, e.g., vision-language models (CLIP), vision models (DINOv2), etc?
+        description: Yes or No? If Yes, what models?
+        type: text
+        required: True
+      - name: Did you use additional training data, e.g., any data collected by yourself?
+        description: Yes or No? If Yes, what data?
+        type: text
+      - name: What types of GPUs did you use (e.g., Nvidia 3080) and how many GPUs did you use?
+        type: text
+        required: True
+      - name: If you are invited to present your work at our workshop, do you agree to submit a report and open-source your code for our verification?
         type: boolean
         required: True
-      - name: Do you use additional data?
-        description: None
-        type: boolean
-        required: True
+      - name: Any remarks?
+        type: text
+        required: False
     is_restricted_to_select_one_submission: False
     is_partial_submission_evaluation_enabled: False
     allowed_submission_file_types: ".json, .zip, .txt, .tsv, .gz, .csv, .h5, .npy, .npz"
@@ -139,14 +147,22 @@ challenge_phases:
       - name: publication_url
         is_visible: True
     submission_meta_attributes:
-      - name: Do you use pretrained models?
-        description: such as foundation models
+      - name: Did you use any pertained models, e.g., vision-language models (CLIP), vision models (DINOv2), etc?
+        description: Yes or No? If Yes, what models?
+        type: text
+        required: True
+      - name: Did you use additional training data, e.g., any data collected by yourself?
+        description: Yes or No? If Yes, what data?
+        type: text
+      - name: What types of GPUs did you use (e.g., Nvidia 3080) and how many GPUs did you use?
+        type: text
+        required: True
+      - name: If you are invited to present your work at our workshop, do you agree to submit a report and open-source your code for our verification?
         type: boolean
         required: True
-      - name: Do you use additional data?
-        description: None
-        type: boolean
-        required: True
+      - name: Any remarks?
+        type: text
+        required: False
     is_restricted_to_select_one_submission: False
     is_partial_submission_evaluation_enabled: False
 
