@@ -23,59 +23,59 @@ leaderboard:
         "default_order_by": "AP",
         "metadata": {
           "AP": {
-            "sort_ascending": True,
+            "sort_ascending": False,
             "description": "AP averages the precision over all instances at IoU threshold from 0.5 to 0.95 with the step size 0.05.",
           },
           "AP50": {
-            "sort_ascending": True,
+            "sort_ascending": False,
             "description": "AP50 is the precision averaged over all instances with IoU threshold as 0.5.",
           },
           "AP75": {
-            "sort_ascending": True,
+            "sort_ascending": False,
             "description": "AP75 is the precision averaged over all instances with IoU threshold as 0.75.",
           },
           "AP_easy": {
-            "sort_ascending": True,
+            "sort_ascending": False,
             "description": "AP_easy is the AP on <i>easy</i> scene images.",
           }, 
           "AP_hard": {
-            "sort_ascending": True,
+            "sort_ascending": False,
             "description": "AP_easy is the AP on <i>hard</i> scene images.",
           },  
           "AP_small": {
-            "sort_ascending": True,
+            "sort_ascending": False,
             "description": "AP_easy is the AP on <i>small</i> object instances.",
           },
           "AP_medium": {
-            "sort_ascending": True,
+            "sort_ascending": False,
             "description": "AP_medium is the AP on <i>medium</i> object instances.",
           },
           "AP_large": {
-            "sort_ascending": True,
+            "sort_ascending": False,
             "description": "AP_hard is the AP on <i>hard</i> object instances.",
           },
           "AR_1": {
-            "sort_ascending": True,
+            "sort_ascending": False,
             "description": "AR averages the proposal recall at IoU threshold from 0.5 to 1.0 with the step size 0.05, given 1 detection per image.",
           },
           "AR_10": {
-            "sort_ascending": True,
+            "sort_ascending": False,
             "description": "AR averages the proposal recall at IoU threshold from 0.5 to 1.0 with the step size 0.05, given 10 detection per image.",
           },
           "AR_100": {
-            "sort_ascending": True,
+            "sort_ascending": False,
             "description": "AR averages the proposal recall at IoU threshold from 0.5 to 1.0 with the step size 0.05, given 100 detection per image.",
           },
           "AR_small": {
-            "sort_ascending": True,
+            "sort_ascending": False,
             "description": "AR averages the proposal recall at IoU threshold from 0.5 to 1.0 with the step size 0.05, for small instances.",
           },
           "AR_medium": {
-            "sort_ascending": True,
+            "sort_ascending": False,
             "description": "AR averages the proposal recall at IoU threshold from 0.5 to 1.0 with the step size 0.05, for medium instances.",
           },
           "AR_large": {
-            "sort_ascending": True,
+            "sort_ascending": False,
             "description": "AR averages the proposal recall at IoU threshold from 0.5 to 1.0 with the step size 0.05, for large instances.",
           },
         }
